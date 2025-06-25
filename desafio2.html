@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - Recriando o Wikipédia</title>
+    <style>
+        body {
+            font-family: Calibri, 'Open sans', Helvetica, Arial, Times;
+            color:#1a1a1a ;
+            }   
+        header {
+            max-width: 1440px;
+
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main aside";
+            grid-template-columns: minmax(0,1rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding: 16px 16px 16px 16px;
+            min-height: 56px;
+            vertical-align: middle;
+            } 
+        main {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main aside";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            }
+        nav{
+            grid-area: sidebar;
+            background: #f9f9f9;
+            border-top: #006500 solid 4px;
+            padding: 1rem;
+            border-radius: 4px;
+            }
+        aside{
+            background: #f9f9f9;
+            border-top: #006500 solid 4px;
+            padding: 1rem;
+            border-radius: 4px;   
+            }
+        h2{
+            background: #f9f9f9;
+            border-left: #006500 solid 4px;
+            border-radius: 4px;   
+            padding: 8px; ;
+            }
+        h3{
+            background: #f9f9f9;
+            border-left: #006500 solid 4px;
+            border-radius: 4px;   
+            padding: 8px; ;
+            }
+        a {
+            color: #006500;
+            }
+        small {
+            color: rgb(100, 100, 100);
+            }
+        img {
+            border-radius: 4px;
+            margin-right: 8px;
+            }
+        figure {
+            margin: 0;
+            }
+        figcaption{
+            font-style: italic;
+            color: rgb(100, 100, 100);
+            font-size: small;
+            }
+        footer {
+            min-height: 40px;
+            border-top: solid 1px #cdcdcd;
+            font-family: Calibri, 'Open sans', Helvetica, Arial, Times;
+            font-size: small;
+            text-align: center;
+            font-style: italic;
+            color:#535353 ;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="assets/wikipedia-logo.png" alt="Wikipedia Logo" width="40">
+        <img src="assets/wikipedia-wordmark-fr.svg" alt="Wikipedia Logo" height="28">
+    </header>
+    
+    <main>
+         
+        <nav>
+           <h4>Navegue pelos tópicos:</h4>
+            <ul>
+                <li><a href="#praia">Praia de Copacabana</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#eventos">Grandes eventos</a></li>
+            </ul>
+        </nav>
+        
+        <article>   
+            <h2 id="praia">Praia de Copacabana</h2>
+
+            <small><i>Data de publicação: <time pubdate>19/06/2025 17:48</time></i></small>
+            
+            <p>A Praia de Copacabana é uma praia localizada no bairro de Copacabana, na Zona Sul da cidade do Rio de Janeiro, no Brasil. É considerada uma das praias mais famosas do mundo. Limitada pela Avenida Atlântica, Copacabana é sede de eventos de grande porte, como campeonatos mundiais de futebol de areia, campeonatos mundiais de vôlei, shows, dentre outros eventos. O reveillon de Copacabana reúne grande público e conta com ampla queima de fogos de artifício, motivo porque é considerado um dos maiores do mundo. Em razão da projeção internacional como cartão-postal e destino turístico, recebeu, no decorrer dos anos, a alcunha de "princesinha do mar".</p>      
+            
+            <h3 id="historia">História</h3>
+            
+            <figure>
+                <img src="assets/Panorama da praia em setembro de 2009.jpg" width="750" alt="Praia de Copacabana em setembro de 2009">
+                <figcaption>Panorama da praia em setembro de 2009</figcaption>
+            </figure>
+            
+            <p>Inicialmente, a praia e toda a região a sua volta tinham o nome tupi de "Sacopenapã", que significa "o barulho e o bater de asas dos socós". No século XVIII, com a inauguração de uma ermida em homenagem a Nossa Senhora de Copacabana, num rochedo no final da praia, o nome da praia e da região foi trocado para "Copacabana".</p>
+            <p>No final do século XIX e início do século XX, com o desenvolvimento de sistemas de saneamento mais avançados, as praias da cidade puderam ser limpas, adquirindo valor e tornando-se objeto da procura pelas camadas de mais alta renda[7]. Com a chegada dos bondes e a abertura de vários túneis ligando a praia ao centro da cidade, esta começou a ser mais frequentada pela população.</p>
+            <p>Entre 1908 e 1914, a Igreja de Nossa Senhora de Copacabana, no final da praia, foi demolida para dar lugar ao atual Forte de Copacabana.</p>
+            <p>Em 1936 surgiram os primeiros postos de salvamento na praia.</p>
+            <p>Em 5 de julho de 1922, a calçada da Praia de Copacabana foi palco de um evento marcante da história do país: a marcha dos dezoito revoltosos do Forte de Copacabana, que percorreram toda a extensão da praia desde o Forte de Copacabana até o Forte do Leme, para enfrentar as forças legalistas, no episódio que ficou conhecido como a Revolta do Forte de Copacabana.</p>
+            <p>Em 13 de agosto de 1923, foi inaugurado o Hotel Copacabana Palace, em frente à praia. Desde então, o hotel tornou-se um símbolo da cidade.</p>
+            <p>Durante a reforma da calçada e o alargamento da Avenida Atlântica, durante a década de 1970, sob orientação do arquiteto e paisagista brasileiro Roberto Burle Marx, as ondas da calçada adquiriram seu atual sentido paralelo em relação ao comprimento da calçada.</p>
+            <p>Na década de 1970, também foi realizado, pela Superintendência de Urbanização e Saneamento - SURSAN, através de dragas , um grande aterro hidráulico que ampliou a área de areia da praia e cujos objetivos principais eram a ampliação da área de lazer (shows, arenas de vôlei e futebol de praia etc.), o alargamento das pistas da Avenida Atlântica, a passagem por baixo do calçadão central do interceptor oceânico (tubulação que transporta todo o esgoto da Zona Sul até o emissário de Ipanema) e, ainda, para evitar que as ressacas chegassem até a Avenida Nossa Senhora de Copacabana e invadissem as garagens dos edifícios da Avenida Atlântica. Mais tarde, foram construídos, na orla, uma ciclovia e alguns quiosques para atendimento ao público.</p>
+            
+            
+            <h3 id="eventos">Grandes eventos</h3>
+            
+            <p>A praia de Copacabana sediou, entre 23 a 28 de Julho de 2013, os eventos centrais da Jornada Mundial da Juventude de 2013. Os eventos realizados na praia foram a missa de abertura, a acolhida ao Papa Francisco, a Via-Sacra, a Vigília e a missa de envio com o Papa Francisco, na qual compareceram 3,8 milhões de fiéis, tornando a Jornada Mundial da Juventude do Rio de Janeiro a segunda maior da história das Jornadas.</p>
+            <p>Nos Jogos Olímpicos de 2016, a praia sediou as competições de vôlei de praia, maratona aquática e triatlo.</p>
+            
+            <figure>
+                <img src="assets/Vista panoramica da faixa de areia da praia de Copacabana.jpg" width="250"  alt="Vista panorâmica da faixa de areia da praia de Copacabana"/>
+                <figcaption>Vista panorâmica da faixa de areia</figcaption>
+            </figure>
+
+            <p>Em 4 de maio de 2024, a praia recebeu o show de encerramento da turnê the celebration tour da cantora norte-americana Madonna. Que contou com mais de 1.600.000 (um milhão e seiscentas mil) pessoas.</p>
+            <p>Em 3 de maio de 2025, como parte da série de eventos musicais Todo Mundo no Rio, a cantora norte-americana Lady Gaga foi convidada e performou seu show para mais de 2.000.000 (dois milhões) de pessoas, finalizando a etapa latino-americana dos shows promocionais de seu álbum Mayhem. De acordo com a prefeitura da cidade, 2,1 milhões de espectadores estavam presentes, mas a artista anunciou um público de 2,5 milhões ainda durante a apresentação.[17][18] Apesar da divergência entre valores, a apresentação conquistou o recorde de maior público da carreira da artista, o recorde de maior público para apresentação de uma artista feminina e se consagrou como o quinto maior público de uma apresentação musical da história.[19] Este foi o primeiro show de Lady Gaga no país desde 2012, quando visitou o país e a cidade com a The Born this Way Ball, sua terceira turnê mundial.</p>
+
+        </article>
+
+        <aside>
+            <p><b>Veja também:</b></p>
+             <ul>
+                <li><a href="#">Cristo Redentor</a></li>
+                <li><a href="#">Escadaria Selarón</a></li>
+                <li><a href="#">Arpoador</a></li>
+                <li><a href="#">Praias do Rio de Janeiro</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Karolina Matias</p>
+    </footer>
+    
+</body>
+</html>
